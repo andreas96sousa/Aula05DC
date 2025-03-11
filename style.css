@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1{
+    font-size: 3rem;
+}
+body{
+    display: flex;
+    height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 60px;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    transition: .1s;
+}
+th, td{
+    padding: 0.75rem;
+    border: 1px solid rgb(87, 87, 87);
+    text-align: center;
+}
+th{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    border: none !important;
+}
+
+table:hover{
+    transition: 30s;
+    transform: rotateZ(3600deg)
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
